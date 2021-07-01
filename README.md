@@ -38,6 +38,8 @@ Please create a Github/Bitbucket private repository and push your code there. Pl
 
 **Have fun!**
 
+![DeepinScreenshot_select-area_20210701104932](https://user-images.githubusercontent.com/74536758/124093729-cadb0900-da60-11eb-9c32-f775d08186f3.png)
+
 # Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
