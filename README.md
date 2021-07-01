@@ -1,4 +1,4 @@
-# Lokalise frontend test
+# Lokalise frontend homework
 
 Hello and welcome!
 
