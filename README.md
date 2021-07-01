@@ -8,6 +8,14 @@ Your task is to build a simple view that displays a grid of cards by following t
 
 User can search glossary terms by entering text inside search field.
 
+Glossary terms should contain:
+
+- title
+- description
+- tags
+- date when a term was created
+- name of a user who created a term
+
 ## Design
 
 Design in Figma - https://www.figma.com/file/Nu7oNij2I39UNDescYqhLU/Test-project-for-a-frontend-developer?node-id=1755%3A2. You can get a “developer view” by logging into the Figma with your Gmail or personal account.
