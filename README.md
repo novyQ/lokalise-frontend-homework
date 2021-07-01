@@ -8,7 +8,7 @@ Your task is to build a simple view that displays a grid of cards by following t
 
 User can search glossary terms by entering text inside search field.
 
-Glossary terms should contain:
+Glossary term cards should contain:
 
 - title
 - description
