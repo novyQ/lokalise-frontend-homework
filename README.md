@@ -1,3 +1,45 @@
+# Lokalise frontend test
+
+Hello and welcome!
+
+Your task is to build a simple view that displays a grid of cards by following the [design from Figma](https://www.figma.com/file/Nu7oNij2I39UNDescYqhLU/Test-project-for-a-frontend-developer?node-id=1755%3A2). The view contains a list of glossary terms which can be fetched from `http://localhost:5000/api/glossary/`. The endpoint supports `search` get parameter which can be used for searching the glossary terms. The server can be started by running `npm run start:server`. There are a few hard requirements that allow us to check the correctness of your solution. Other than that you're free to pick the approach and the tech stack you like for this task. For your convenience this repository already contains Create React App with Redux template.
+
+## Functionality
+
+User can search glossary terms by entering text inside search field.
+
+## Design
+
+Design in Figma - https://www.figma.com/file/Nu7oNij2I39UNDescYqhLU/Test-project-for-a-frontend-developer?node-id=1755%3A2. You can get a “developer view” by logging into the Figma with your Gmail or personal account.
+
+## Acceptance criteria
+
+- TypeScript is used
+- React is used as the main library for development
+- Design is implemented right and is precise
+- View is fully responsive
+- Correct HTML tags are used
+- Reusable components are used
+- Code is covered with tests (at least some examples)
+- Code meets some popular ESLint standards (e.g. https://www.npmjs.com/package/eslint-config-airbnb).
+- Code works in latest Chrome, Firefox and Safari
+
+## Some pointers
+
+Feel free to use any CSS approach, however if you can't choose, then know that at Lokalise we use [Styled components](https://styled-components.com/). It is not required to use Redux, however Redux Toolkit is there if you need it and [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) could be quite handy for fetching and caching API data.
+
+## Development
+
+You have one week (7 calendar days) to submit the task. Please notify us if you need more time to complete the task.
+
+## Submission
+
+Please create a Github/Bitbucket private repository and push your code there. Please invite alexey.malihin@lokalise.com to this repository.
+
+**Have fun!**
+
+# Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
@@ -11,6 +53,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### `npm run start:server`
+
+Starts Node server on port `5000`.
 
 ### `npm test`
 
