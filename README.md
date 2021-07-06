@@ -42,7 +42,7 @@ You have one week (7 calendar days) to submit the task. Please notify us if you 
 
 ## Submission
 
-Please create a Github/Bitbucket private repository and push your code there. Please invite alexey.malihin@lokalise.com to this repository.
+Please create a Github/Bitbucket private repository and push your code there. Please invite alexey.malihin@lokalise.com and lauris.mikals@lokalise.com to this repository.
 
 **Have fun!**
 
