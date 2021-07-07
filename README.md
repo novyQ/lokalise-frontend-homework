@@ -36,10 +36,6 @@ Design in Figma - https://www.figma.com/file/Nu7oNij2I39UNDescYqhLU/Test-project
 
 Feel free to use any CSS approach, however if you can't choose, then know that at Lokalise we use [Styled components](https://styled-components.com/). It is not required to use Redux, however Redux Toolkit is there if you need it and [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) could be quite handy for fetching and caching API data.
 
-## Development
-
-You have one week (7 calendar days) to submit the task. Please notify us if you need more time to complete the task.
-
 ## Submission
 
 Please create a Github/Bitbucket private repository and push your code there. Please invite alexey.malihin@lokalise.com and lauris.mikals@lokalise.com to this repository.
