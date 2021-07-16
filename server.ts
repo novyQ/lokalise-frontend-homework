@@ -115,7 +115,7 @@ const port = 5000;
 const server = http.createServer(async (req, res) => {
     const location = new URL(req.url, `http://localhost:${port}`);
 
-    if (req.method === 'GET' && location.pathname === '/api/glossary/') {
+    if (req.method === 'GET' && '/api/glossary' === location.pathname.replace(/\/+$/, '')) {
         const searchPhrase = location.searchParams.get('search') ?? '';
 
         const searchGlossaryItemWithPhrase = searchGlossaryItem(searchPhrase);
