@@ -24,7 +24,7 @@ Design in Figma - https://www.figma.com/file/Nu7oNij2I39UNDescYqhLU/Test-project
 
 - TypeScript is used
 - React is used as the main library for development
-- Design is implemented right and is precise
+- Design is implemented correctly and is precise
 - View is fully responsive
 - Correct HTML tags are used
 - Reusable components are used
