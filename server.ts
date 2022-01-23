@@ -116,11 +116,8 @@ const searchGlossaryItem =
   };
 
 const headers = {
-  // trying to solve the no-cors error, ended up just deleting that line:
-  // "Access-Control-Allow-Origin": "http://localhost:3000",
-  // "Access-Control-Allow-Credentials": "true",
+  // "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Methods": "POST, GET",
-  // "Access-Control-Allow-Headers": "Origin, Content-Type, Accept",
 };
 
 const port = 5000;
@@ -147,23 +144,3 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(port, () => console.log(`Server listening on port ${port}.`));
-
-// const http = require("http");
-
-// const hostname = "localhost";
-// const port = 5000;
-
-// const server = http.createServer((req, res) => {
-//   const location = new URL(req.url, `http://${hostname}:${port}`);
-//   if (req.method === "GET" && location.pathname === "/api/glossary") {
-//     res.setHeader("Content-Type", "application/json");
-//     res.end(JSON.stringify({ a: 1 }));
-//     return;
-//   }
-//   res.write("Hello World!");
-//   res.end();
-// });
-
-// server.listen(port, hostname, () => {
-//   console.log(`Server running at http://${hostname}:${port}/`);
-//});
